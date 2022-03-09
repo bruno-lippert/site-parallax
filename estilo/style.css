@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div.img1 {
+    background: lightgray url('../Imagens/Backgorund1.jpg') center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+p.text12 {
+    font-size: 2em;
+    background-color: #00000077;
+    color: lightgray;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+p#textImg1 {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sectionOne {
+    background-color: lightgray;
+}
+
+section {
+    padding: 35px;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+
+div#img2 {
+    background: black url('../Imagens/Backgorund2.jpg') center center no-repeat fixed;
+}
+
+div#img3 {
+    background: black url('../Imagens/Backgorund3.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+div.img23 {
+    height: 50vh;
+    background-size: cover;
+}
