@@ -29,10 +29,7 @@ p#textImg1 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-
-#sectionOne {
-    background-color: lightgray;
+    letter-spacing: 8px;
 }
 
 section {
@@ -42,16 +39,48 @@ section {
     text-indent: 30px;
 }
 
+#sectionOne {
+    background-color: rgba(154, 208, 241, 0.521);
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.section23 {
+    background-color: gray;
+    color: white;
+}
+
+div {
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+}
+
 div#img2 {
     background: black url('../Imagens/Backgorund2.jpg') center center no-repeat fixed;
+    background-size: 100%;
 }
 
 div#img3 {
     background: black url('../Imagens/Backgorund3.jpg') center center no-repeat fixed;
-    background-size: cover;
+    background-size: 100%;
 }
 
-div.img23 {
-    height: 50vh;
-    background-size: cover;
+#ima2{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    letter-spacing: 8px;
+}
+
+#ima3 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    letter-spacing: 8px;
 }
