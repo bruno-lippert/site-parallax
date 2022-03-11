@@ -53,6 +53,7 @@ div {
     position: relative;
     height: 50vh;
     background-size: cover;
+    text-transform: uppercase;
 }
 
 div#img2 {
@@ -83,4 +84,9 @@ div#img3 {
     left: 50%;
     transform: translate(-50% -50%);
     letter-spacing: 8px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
 }
