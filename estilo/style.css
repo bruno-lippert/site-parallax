@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-div.img1 {
+.backPrincipal {
     background: lightgray url('../Imagens/Backgorund1.jpg') center center no-repeat fixed;
     background-size: cover;
     height: 100vh;
@@ -25,6 +25,14 @@ p.text12 {
 
 p#textImg1 {
     
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+}
+
+p#textImg2 {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -65,8 +73,10 @@ div#img3 {
     background: black url('../Imagens/Backgorund3.jpg') center center no-repeat fixed;
     background-size: 100%;
 }
-
-#ima2{
+span {
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 10px;
+    font-size: 1.5em;
     color: white;
     position: absolute;
     text-align: center;
@@ -75,14 +85,3 @@ div#img3 {
     transform: translate(-50%, -50%);
     letter-spacing: 8px;
 }
-
-#ima3 {
-    color: white;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 8px;
-}
-
