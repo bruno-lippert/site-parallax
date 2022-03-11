@@ -72,7 +72,7 @@ div#img3 {
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     letter-spacing: 8px;
 }
 
@@ -82,11 +82,7 @@ div#img3 {
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     letter-spacing: 8px;
 }
 
-.ptext {
-    position: absolute;
-    top: 50%;
-}
